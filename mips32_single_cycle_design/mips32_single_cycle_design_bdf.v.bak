@@ -1,0 +1,92 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions
+// and other software and tools, and any partner logic
+// functions, and any output files from any of the foregoing
+// (including device programming or simulation files), and any
+// associated documentation or information are expressly subject
+// to the terms and conditions of the Intel Program License
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// PROGRAM		"Quartus Prime"
+// VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+// CREATED		"Fri Oct  6 11:37:04 2023"
+
+module mips32_single_cycle_design_bdf(
+	clk,
+	rst,
+	mem_wr_en,
+	const_val,
+	mem_wr_addr,
+	mem_wr_data
+);
+
+
+input wire	clk;
+input wire	rst;
+output wire	mem_wr_en;
+output wire	[31:0] const_val;
+output wire	[31:0] mem_wr_addr;
+output wire	[31:0] mem_wr_data;
+
+wire	[31:0] instr;
+wire	[31:0] mem_wr_addr_ALTERA_SYNTHESIZED;
+wire	[31:0] mem_wr_data_ALTERA_SYNTHESIZED;
+wire	mem_wr_en_ALTERA_SYNTHESIZED;
+wire	[31:0] pc;
+wire	[31:0] rd_data_mem;
+
+
+
+
+
+data_mem	b2v_dmem_inst(
+	.clk(clk),
+	.wr_en(mem_wr_en_ALTERA_SYNTHESIZED),
+	.wr_addr(mem_wr_addr_ALTERA_SYNTHESIZED),
+	.wr_data(mem_wr_data_ALTERA_SYNTHESIZED),
+	.rd_data_mem(rd_data_mem));
+	defparam	b2v_dmem_inst.ADDR_WIDTH = 32;
+	defparam	b2v_dmem_inst.DATA_WIDTH = 32;
+	defparam	b2v_dmem_inst.MEM_SIZE = 64;
+
+
+instr_mem	b2v_imem_inst(
+	.instr_addr(pc[7:2]),
+	.instr(instr));
+	defparam	b2v_imem_inst.ADDR_WIDTH = 6;
+	defparam	b2v_imem_inst.DATA_WIDTH = 32;
+	defparam	b2v_imem_inst.MEM_SIZE = 64;
+
+
+lpm_constant_0	b2v_inst(
+	.result(const_val));
+
+
+processor_bdf	b2v_processor_bdf_inst(
+	.clk(clk),
+	.rst(rst),
+	.instr(instr),
+	.rd_data_mem(rd_data_mem),
+	.mem_wr_en(mem_wr_en_ALTERA_SYNTHESIZED),
+	.alu_result(mem_wr_addr_ALTERA_SYNTHESIZED),
+	.mem_wr_data(mem_wr_data_ALTERA_SYNTHESIZED),
+	.pc(pc));
+
+assign	mem_wr_en = mem_wr_en_ALTERA_SYNTHESIZED;
+assign	mem_wr_addr = mem_wr_addr_ALTERA_SYNTHESIZED;
+assign	mem_wr_data = mem_wr_data_ALTERA_SYNTHESIZED;
+
+endmodule
+
+module lpm_constant_0(result);
+/* synthesis black_box */
+
+output [31:0] result;
+
+endmodule
