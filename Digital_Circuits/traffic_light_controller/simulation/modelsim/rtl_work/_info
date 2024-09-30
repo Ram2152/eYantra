@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/simulation/modelsim
+vtb
+Z1 !s110 1702712730
+!i10b 1
+!s100 Db2O@o5?1FT^TD05XgMhb3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0QeWL6]kQZm<i`mgBNgo61
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702712648
+8D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/tb.v
+FD:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/tb.v
+!i122 1
+L0 3 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1702712730.000000
+!s107 D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller|D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/tb.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller
+Z8 tCvgOpt 0
+vtraffic_light_controller
+R1
+!i10b 1
+!s100 S`LikLijfbz24W>U`IMnX1
+R2
+IFeh6VWo9a>Yf68hIiU`N]1
+R3
+R0
+w1702712156
+8D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/traffic_light_controller.v
+FD:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/traffic_light_controller.v
+!i122 0
+L0 3 34
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/traffic_light_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller|D:/Desktop/AT_23-24/Digital_Circuits/traffic_light_controller/traffic_light_controller.v|
+!i113 1
+R6
+R7
+R8

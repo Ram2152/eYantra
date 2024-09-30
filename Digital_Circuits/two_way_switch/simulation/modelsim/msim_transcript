@@ -1,0 +1,48 @@
+# Reading pref.tcl
+# do two_way_switch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Desktop/AT_23-24/Digital_Circuits/two_way_switch {D:/Desktop/AT_23-24/Digital_Circuits/two_way_switch/two_way_switch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:00:20 on Dec 16,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Desktop/AT_23-24/Digital_Circuits/two_way_switch" D:/Desktop/AT_23-24/Digital_Circuits/two_way_switch/two_way_switch.v 
+# -- Compiling module two_way_switch
+# 
+# Top level modules:
+# 	two_way_switch
+# End time: 13:00:20 on Dec 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Desktop/AT_23-24/Digital_Circuits/two_way_switch {D:/Desktop/AT_23-24/Digital_Circuits/two_way_switch/tb_two_way_switch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:00:20 on Dec 16,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Desktop/AT_23-24/Digital_Circuits/two_way_switch" D:/Desktop/AT_23-24/Digital_Circuits/two_way_switch/tb_two_way_switch.v 
+# -- Compiling module tb_two_way_switch
+# 
+# Top level modules:
+# 	tb_two_way_switch
+# End time: 13:00:20 on Dec 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_two_way_switch
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_two_way_switch 
+# Start time: 13:00:21 on Dec 16,2023
+# Loading work.tb_two_way_switch
+# Loading work.two_way_switch
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 13:00:40 on Dec 16,2023, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
