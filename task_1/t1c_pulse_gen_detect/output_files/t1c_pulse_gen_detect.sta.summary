@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'echo_rx'
+Slack : -7.307
+TNS   : -136.369
+
+Type  : Slow 1200mV 85C Model Setup 'reset'
+Slack : -6.729
+TNS   : -527.620
+
+Type  : Slow 1200mV 85C Model Hold 'reset'
+Slack : -0.010
+TNS   : -0.010
+
+Type  : Slow 1200mV 85C Model Hold 'echo_rx'
+Slack : 2.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reset'
+Slack : -3.000
+TNS   : -222.414
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'echo_rx'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'echo_rx'
+Slack : -6.531
+TNS   : -122.139
+
+Type  : Slow 1200mV 0C Model Setup 'reset'
+Slack : -6.019
+TNS   : -464.823
+
+Type  : Slow 1200mV 0C Model Hold 'reset'
+Slack : 0.059
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'echo_rx'
+Slack : 2.081
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reset'
+Slack : -3.000
+TNS   : -186.272
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'echo_rx'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'reset'
+Slack : -3.848
+TNS   : -263.598
+
+Type  : Fast 1200mV 0C Model Setup 'echo_rx'
+Slack : -3.640
+TNS   : -66.335
+
+Type  : Fast 1200mV 0C Model Hold 'reset'
+Slack : -0.068
+TNS   : -0.127
+
+Type  : Fast 1200mV 0C Model Hold 'echo_rx'
+Slack : 1.103
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reset'
+Slack : -3.000
+TNS   : -85.763
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'echo_rx'
+Slack : -3.000
+TNS   : -3.497
+
+------------------------------------------------------------

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/simulation/modelsim
+vt1c_pulse_gen_detect
+!s110 1703320907
+!i10b 1
+!s100 YmiNLU^8BBzeL4]=iz[L`1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1i[OMf]1MCgB7WakRN6z81
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1703320812
+8D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/t1c_pulse_gen_detect.v
+FD:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/t1c_pulse_gen_detect.v
+!i122 0
+L0 21 66
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1703320907.000000
+!s107 D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/t1c_pulse_gen_detect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect|D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/t1c_pulse_gen_detect.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect
+Z5 tCvgOpt 0
+vtb
+!s110 1703320908
+!i10b 1
+!s100 2RQ1Im[@H_DRRfH<MN?1E1
+R1
+I3zciWaef9Em3@z1[FM[OJ1
+R2
+R0
+w1703262503
+8D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/simulation/modelsim/tb.v
+FD:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/simulation/modelsim/tb.v
+!i122 1
+L0 3 120
+R3
+r1
+!s85 0
+31
+!s108 1703320908.000000
+!s107 D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/simulation/modelsim/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/simulation/modelsim|D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/simulation/modelsim/tb.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/Desktop/AT_23-24/task_1/t1c_pulse_gen_detect/simulation/modelsim
+R5
